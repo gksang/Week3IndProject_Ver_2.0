@@ -4,7 +4,7 @@ Delani Studio Website Ver 2.0
 #### Website Showcasing Delani Studio's Products and Services, 31/01/2022
 #### By **Gilbert Sang**
 ## Description
-This is a website to showcase DElani Studio's Portfolio. It comprises of Details of their services, sample pictures of their completed projects,links to their social media accounts.Website was designed using HTML,CSS,Javascript and JQuery
+This is a website to showcase Delani Studio's Portfolio. It comprises of Details of their services, sample pictures of their completed projects,links to their social media accounts.Website was designed using HTML,CSS,Javascript and JQuery
 ## Setup/Installation Requirements
 Program setup instructions Install a code editing tool e.g. Atom or Visual Code Have a computer with the below minimum specifications for Visual Code:
 
