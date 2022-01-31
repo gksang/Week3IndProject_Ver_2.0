@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script  src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>      
+        <title>Delani Studio</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap" rel="stylesheet">
+        <title>DELANI STUDIO</title>
+    </head>
+    <body>
+        <header class="img-header">
+            <div class="header-desc">
+                <img id="logo" src="assets/logo.png">
+                <h1 class="main-header">WELCOME<br>TO DELANI STUDIO</h1>
+                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                <img id="click" src="assets/mouse_click.png" alt="">
+            </div>
+        </header>
+        <div class="about">
+            <h1>ABOUT US</h1>
+            <p>When you work with use, you are part of a team of commited collaborators. All aspects of our software development
+            process are intergrated,interactiveand agile<br><br>Our approach unifies design,development and product management to create exceptional products
+            <br><br>We start each project by understanding your business goals,the user's needs and the product requirements
+            <br><br>Then we help translate them into effective and elegant solutions</p>  
+        </div>
+       <div class="services">
+            <div class="services-desc">
+                <p><h1>SERVICES</h1><br>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision<br><br>
+                The outcome of this scoping session is a proposal or high-level statement of work<br><br>
+                based on your requirements, we can provide a complete offering or just the pieces you need<br><br>
+                Then we help translate them into effective and elegant solutions</p>
+            </div>
+       </div>
+       <div class="work">
+            <h1>WHAT WE DO</h1>
+            <div class="row">
+                <div class="design-col">
+                    <img id="des-icon" src="assets/services/design_icon.png" alt="">
+                    <h2 id="des-icon-title">DESIGN<h2>
+                        <div class="click-desc-des">
+                            <h2>DESIGN</h2>
+                            <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing<br><br>
+                            Throughout your project,our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed</p>
+                        </div> 
+                </div>
+                <div class="dev-col">
+                    <img id="dev-icon" src="assets/services/dev_icon.png" alt="" >
+                    <h2 id="dev-icon-title" >DEVELOPMENT<h2>
+                        <div class="click-desc-dev">
+                            <h2>DEVELOPMENT</h2>
+                            <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.<br><br>
+                            They collaborate with your team to write,and improve code on a daily basis,using proven practices such as test-driven development and pair programming.</p>
+                        </div>    
+                </div>
+                <div class="prod-col">
+                    <img id="prod-icon" src="assets/services/product_icon.png" alt="" >
+                    <h2 id="prod-icon-title">PRODUCT MANAGEMENT<h2>
+                        <div class="click-desc-prod">
+                            <h2>PRODUCT MANAGEMENT</h2>
+                            <p>Planning and development is iterative. Because we are constantly coding and testing,the products we build are always ready to go live<br><br>
+                            This iterative process allows for changes as business requirements evolve</p>
+                        </div> 
+                </div>
+            </div>      
+       </div>
+       <div class="portfolio">
+            <h1>PORTFOLIO</h1>
+            <div class="row">
+                <div class="port-col">
+                    <img src="assets/portfolio/work1.jpg" alt="">
+                    <div class="overlay">Jim Carrey</div>               
+                </div>
+                <div class="port-col">
+                    <img src="assets/portfolio/work2.jpg" alt="">
+                    <div class="overlay">Gold Prism</div>                
+                </div>
+                <div class="port-col">
+                    <img src="assets/portfolio/work3.jpg" alt="">
+                    <div class="overlay">Ontario Security</div>                  
+                    
+                </div>
+                <div class="port-col">
+                    <img src="assets/portfolio/work4.jpg" alt=""> 
+                    <div class="overlay">Black Co</div>               
+                </div>
+            </div>
+            <div class="row">
+                <div class="port-col">
+                    <img src="assets/portfolio/work5.jpg" alt="">
+                    <div class="overlay">Elena</div>               
+                </div>
+                <div class="port-col">
+                    <img src="assets/portfolio/work6.jpg" alt=""> 
+                    <div class="overlay">Wordpress GUI</div>               
+                </div>
+                <div class="port-col">
+                    <img src="assets/portfolio/work7.jpg" alt=""> 
+                    <div class="overlay">Burned Co</div>              
+                </div>
+                <div class="port-col">
+                    <img src="assets/portfolio/work8.jpg" alt=""> 
+                    <div class="overlay">Girraffe Restaurant</div>               
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h1><br>CONTACT US<br><br><br>
+            <form name="contact" action="" onsubmit="return feedback();" target="_self" >
+                <input  type="text" id="name" name="name" placeholder="Name..." required style="background-color: rgba(0,0,0,0,);">
+                <input  type="text" id="email" name="email" placeholder="Email....." required><br>
+                <input  type="text" id="message" name="message" placeholder="Your Message Here..." style="width: 360px; height: 200px;"><br>
+                <input  type="submit" id="submit" value="Send Feedback" name="Submit">
+            </form></h1> 
+
+        </div>
+        
+       <div class="socials">
+            <div class="footer-links">
+                <p>
+                    <a href="#" target="_self"><img src="assets/socials/twitter.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/dribble.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/facebook.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/g_plus.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/skype.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/stumble_upon.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/behance.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/pinterest.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/flickr.png"/></a>
+                    <a href="#" target="_self"><img src="assets/socials/you_tube.png"/></a>
+                </p>
+                <p>DELANI STUDIO<br>2019</p>                             
+            </div>
+       </div>
+
+        <script src="jquery.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
